@@ -1,0 +1,10 @@
+.wrap{
+    display: inline-block;
+    margin: 10% 1.5% 0;
+    width: 30%;
+    vertical-align: top;
+}
+
+input:invalid {
+    background-color: rgb(255, 87, 127);
+}
