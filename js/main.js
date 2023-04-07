@@ -15,7 +15,7 @@ $('#calculate_chocolates').click(function (){
 // Расчёт валют
 let DollarToEuro = 0.92
 $('#calculate_euro').click(function (){
-    $('#result_euro').text(Number($('#dollars').val())*DollarToEuro)
+    $('#result_euro').text('€' + Number($('#dollars').val())*DollarToEuro)
 })
 
 
